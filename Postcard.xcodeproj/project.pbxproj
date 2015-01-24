@@ -13,6 +13,8 @@
 		841706311A6C316200839192 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841706301A6C316200839192 /* Images.xcassets */; };
 		841706341A6C316200839192 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841706321A6C316200839192 /* LaunchScreen.xib */; };
 		841706401A6C316300839192 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417063F1A6C316300839192 /* PostcardTests.swift */; };
+		84246D5F1A72F6DF000CB5ED /* IMGP1078.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 84246D5E1A72F6DF000CB5ED /* IMGP1078.JPG */; };
+		84246D611A72F9C5000CB5ED /* Bibo-Briefmarke-1999.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84246D601A72F9C5000CB5ED /* Bibo-Briefmarke-1999.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		841706391A6C316300839192 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8417063E1A6C316300839192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8417063F1A6C316300839192 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		84246D5E1A72F6DF000CB5ED /* IMGP1078.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMGP1078.JPG; sourceTree = "<group>"; };
+		84246D601A72F9C5000CB5ED /* Bibo-Briefmarke-1999.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bibo-Briefmarke-1999.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		841706261A6C316200839192 /* Postcard */ = {
 			isa = PBXGroup;
 			children = (
+				84246D601A72F9C5000CB5ED /* Bibo-Briefmarke-1999.jpg */,
+				84246D5E1A72F6DF000CB5ED /* IMGP1078.JPG */,
 				841706291A6C316200839192 /* AppDelegate.swift */,
 				8417062B1A6C316200839192 /* ViewController.swift */,
 				8417062D1A6C316200839192 /* Main.storyboard */,
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					841706231A6C316200839192 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = PY5NGMRK3X;
 					};
 					841706381A6C316300839192 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -192,6 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84246D611A72F9C5000CB5ED /* Bibo-Briefmarke-1999.jpg in Resources */,
+				84246D5F1A72F6DF000CB5ED /* IMGP1078.JPG in Resources */,
 				8417062F1A6C316200839192 /* Main.storyboard in Resources */,
 				841706341A6C316200839192 /* LaunchScreen.xib in Resources */,
 				841706311A6C316200839192 /* Images.xcassets in Resources */,
@@ -338,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +418,7 @@
 				841706451A6C316300839192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		841706461A6C316300839192 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +427,7 @@
 				841706481A6C316300839192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
