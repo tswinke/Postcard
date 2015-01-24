@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="GOb-6l-pua"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="drG-Dw-8h3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMGP1078.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="2t6-6u-zkh">
@@ -57,7 +58,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bibo-Briefmarke-1999.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="s1R-d4-g5X">
