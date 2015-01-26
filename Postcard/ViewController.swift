@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         enterNameTextField.resignFirstResponder()
         MailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
         //Test
+        enterNameTextField.hidden = true
 
     }
 }
